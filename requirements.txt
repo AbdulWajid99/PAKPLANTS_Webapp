@@ -7,5 +7,4 @@ starlette
 gunicorn
 python-multipart
 h5py
-tf_nightly
 Flask
