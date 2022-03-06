@@ -8,10 +8,6 @@
 <br>
 
 
-
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Final Year Project: PAKPLANTS
 
 **This repository contain all the backend of project PAKPLANTS**
@@ -23,7 +19,7 @@ PAKPLANTS is based on deep learning and image processing techonology!
 
 
 ![screenshot](static/image1.jpg)
-![screenshot](static/image1.jpg)
+![screenshot](static/image2.jpg)
 
 
 ## Built With
@@ -38,23 +34,13 @@ PAKPLANTS is based on deep learning and image processing techonology!
 
 ## Live Demo
 
-[Live Demo Link](https://abdulwajid99.github.io/SaylaniWeb/)
+[Live Demo Link]()
 
 ## Front-end Link
 
 [Front-end Link](https://github.com/owaisalimemon/pakplants_fyp.git)
 
 
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ## Setup
 
@@ -66,15 +52,11 @@ Run the following [git](https://git-scm.com/downloads) command to clone the file
 git clone https://github.com/AbdulWajid99/PAKPLANTS_Webapp.git
 ```
 
-- Once the files are on your machine, open the _html-css-javascript-getting-started_ folder in [Visual Studio Code](https://code.visualstudio.com/).
-
-- With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
-
+- Once the files are on your machine, open the _html-css-javascript-getting-started_ folder in [Visual Studio Code](https://code.visualstudio.com/)
 
 
 
 ## Authors
-
 
 
 👤 **Author1** GitHub: [@githubhandle](https://github.com/AbdulWajid99))
@@ -96,13 +78,8 @@ Feel free to check the [issues page](../../issues/).
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](LICENSE.txt) licensed.
 
