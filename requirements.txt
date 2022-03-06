@@ -10,3 +10,8 @@ h5py
 Flask
 requests
 pydantic
+Click
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
