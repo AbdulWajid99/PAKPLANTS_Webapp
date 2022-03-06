@@ -36,8 +36,8 @@ PAKPLANTS is based on deep learning and image processing techonology!
 
 [Live Demo Link]()
 
-<img src="static/image3.jpg" width="300" height="200">
-<img src="static/image4.jpg" width="300" height="200">
+<img src="static/image3.jpg" width="350" height="450">
+<img src="static/image4.jpg" width="350" height="450">
 
 ## Front-end Link
 
