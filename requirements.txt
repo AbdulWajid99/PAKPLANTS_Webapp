@@ -8,3 +8,5 @@ gunicorn
 python-multipart
 h5py
 Flask
+requests
+pydantic
