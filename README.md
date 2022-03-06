@@ -36,6 +36,9 @@ PAKPLANTS is based on deep learning and image processing techonology!
 
 [Live Demo Link]()
 
+![screenshot](static/image3.jpg)
+![screenshot](static/image4.jpg)
+
 ## Front-end Link
 
 [Front-end Link](https://github.com/owaisalimemon/pakplants_fyp.git)
