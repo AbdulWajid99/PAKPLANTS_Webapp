@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Plantation Area Detection</title>
+  <title>Plant Identification</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -13,9 +13,9 @@
 <body>
 
   <div class="container">
-    <h1 class="jumbotron bg-primary">Plantation Area Detection</h1>
+    <h1 class="jumbotron bg-primary">Plant Identification</h1>
     <br><br>
-    <form class="form-horizontal" action="/submit" method="post" enctype="multipart/form-data">
+    <form class="form-horizontal" action="/submit1" method="post" enctype="multipart/form-data">
 
       <div class="form-group">
         <label class="control-label col-sm-2" for="pwd">Upload Your Image :</label>
@@ -26,21 +26,19 @@
 
       <div class="form-group">
         <div class="col-sm-offset-2 col-sm-10">
-          <button type="submit" class="btn btn-success">Submit</button>
+          <button type="submit1" class="btn btn-success">Submit</button>
+          <a href="/plantation" class="btn btn-primary" role="button">Use Plantation Area Detector</a>
         </div>
       </div>
     </form>
 
     {% if prediction %}
     <img src="{{img_path}}" height="400px" width="400px">
-    <h2> Plantation area is approx: <i> {{prediction+ '%'}} </i></h2>
+    <h2> Identified Plant is : <i> {{prediction}} </i></h2>
 
     {% endif %}
 
   </div>
-
-
-
 
 </body>
 

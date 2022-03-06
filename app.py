@@ -14,15 +14,15 @@ app = Flask(__name__)
 
 
 # routes
-@app.route("/", methods=["GET", "POST"])
+@app.route("/plantation", methods=["GET", "POST"])
 def main():
-    return render_template("index.html")
+    return render_template("indexplantation.html")
 
 
 # routes
-@app.route("/plants", methods=["GET", "POST"])
+@app.route("/", methods=["GET", "POST"])
 def main1():
-    return render_template("indexplants.html")
+    return render_template("index.html")
 
 
 @app.route("/submit", methods=["GET", "POST"])
@@ -35,7 +35,7 @@ def get_output():
 
         p = areaDetection(img_path)
 
-    return render_template("index.html", prediction=p, img_path=img_path)
+    return render_template("indexplantation.html", prediction=p, img_path=img_path)
 
 
 @app.route("/submit1", methods=["GET", "POST"])
@@ -48,7 +48,7 @@ def get_output1():
         image = Image.open(img_path)
         p = predict_plant(image)
 
-    return render_template("indexplants.html", prediction=p, img_path=img_path)
+    return render_template("index.html", prediction=p, img_path=img_path)
 
 
 def areaDetection(img_path):
@@ -64,7 +64,7 @@ def areaDetection(img_path):
 
 
 def predict_plant(img_path):
-    
+
     img = ImageOps.fit(img_path, (224, 224))
     img_array = np.array(img)
     expanded_img_array = np.expand_dims(img_array, axis=0)
@@ -83,7 +83,7 @@ def predict_plant(img_path):
         9: "Pongamia Pinnata",
     }
     result = index_to_label[prediction[0]]
-    return{result}
+    return {result}
 
 
 if __name__ == "__main__":
