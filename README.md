@@ -12,7 +12,7 @@
 
 **This repository contain all the backend of project PAKPLANTS**
 
-**PAKPLANTS  is a mobile application that allow user to to identify plants only using images of their respective leaves by uploading or capturing at real time**
+**PAKPLANTS  is a mobile application that allow user to to identify plants only using images of their respective leaves image by uploading or capturing at real time**
 **It also allow user to identify plantation area left in an satellite images uploaded by user. Finally, offer an e-commerce store integrated inside the application.**
 
 PAKPLANTS is based on deep learning and image processing techonology!
